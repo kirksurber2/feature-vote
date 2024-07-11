@@ -1,0 +1,22 @@
+
+.commentBox {
+    border: 1px solid rgba(0, 0, 0, .17);
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, .5) 0px 5px 5px 0px;
+    margin: 10px auto;
+    justify-content: space-between;
+    width: 75%;
+    margin: 10px auto;
+}
+.infoArea{
+    text-align: left;
+}
+.likesArea {
+    display: flex;
+    width: 25%;
+    margin-right: 25px;
+    justify-content: space-around;
+}
+.thumbsIcon {
+    margin: 10px auto;
+}

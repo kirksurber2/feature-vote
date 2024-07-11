@@ -1,0 +1,44 @@
+.logoArea {
+    display: block;
+    justify-content: center;
+    margin-top: -100px;
+    margin-left: 0px;
+    
+}
+.logoArea img {
+    display: flex;
+    
+    padding: 0px;
+    margin: 0px auto;
+    
+}
+
+.formArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    border: 1px solid rgba(0, 0, 0, .17);
+    border-radius: 15px;
+    justify-content: center;
+    margin: 10px auto;
+    box-shadow: rgba(0, 0, 0, .17)0px 7px 7px 0px;
+}
+input {
+    padding: 5px;
+    padding-left: 10px;
+    margin: 10px;
+    width: 90%;
+    border-radius: 5px;
+}
+.names input{
+    width: 43%;
+}
+button {
+    margin: 10px;
+    width: 95%;
+}
+.account{
+    text-align: center;
+    cursor: pointer;
+}

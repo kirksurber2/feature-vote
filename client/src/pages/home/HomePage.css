@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+}
+
+.titleUnderline {
+    width: 95%;
+    margin: 10px auto;
+    height: 5px;
+    border: 0px;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, darkblue 0%, darkorchid 51%, darkblue 100%);
+    background-size: 200%;
+    transition: .5s;
+}
+.titleUnderline:hover{
+    background-position: right;
+}
+.featureArea {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    
+}
