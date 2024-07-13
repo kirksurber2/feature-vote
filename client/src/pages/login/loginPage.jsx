@@ -49,7 +49,7 @@ export default function LoginPage() {
                 <h1>Login or Create Your Account</h1>
             </div>
             <div className="formArea">
-                <form onSubmit={hasAccount? handleLogin}>
+                <form onSubmit={hasAccount? handleLogin : handleCreate}>
                     {hasAccount? 
                         <>
                             <input

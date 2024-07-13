@@ -29,7 +29,8 @@ useEffect(() => {
                     title= 'New Feature'
                     description= 'A longer description of the feature'
                     id='1'
-                    linkClick={() => linkClick}
+                    linkClick={linkClick}
+                    
                     />
                 <Feature 
                     title= 'New Feature'
